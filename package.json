@@ -1,7 +1,7 @@
 {
-  "name": "@unction/template",
+  "name": "@unction/cascadingkeychain",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cascades through multiple keychains in order to arrive at a value",
   "keywords": [
     "unction",
     "functional"
@@ -45,6 +45,9 @@
     "tap": "10.3.3"
   },
   "dependencies": {
-    "ramda": "0.24.1"
+    "@unction/isnil": "^1.0.0",
+    "@unction/keychain": "^1.0.0",
+    "@unction/reducevalues": "^1.0.8",
+    "@unction/replacewhen": "^1.0.0"
   }
 }
