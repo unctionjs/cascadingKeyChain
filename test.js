@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import cascadingKeyChain from "./"
+import cascadingKeyChain from "./source.js"
 
 test(({same, end}) => {
   same(
