@@ -4,7 +4,7 @@ import isNil from "@unction/isnil"
 import keyChain from "@unction/keychain"
 
 export default function cascadingKeyChain (keychains: Array<UnfinishedKeyChainType>): Function {
-  return function cascadingKeyChainChains (tree: IterableType): ValueType {
+  return function cascadingKeyChainChains (tree: FunctorType): ValueType {
     return reduceValues(
       (filler: ValueType | null): Function => (keychain: KeyChainType): ValueType => {
         if (isNil(filler)) {
