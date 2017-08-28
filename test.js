@@ -1,20 +1,20 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import cascadingKeyChain from "./source"
+import cascadingKeyChain from "./"
 
 test(({same, end}) => {
   same(
     cascadingKeyChain(
       [
         ["ephemeral", "current", "session"],
-        ["resources", "sessions", null, "relationships", "account", "data", "id"],
-        ["resources", "accounts", null, "attributes", "name"],
+        ["res", "sessions", null, "relationships", "account", "data", "id"],
+        ["res", "accounts", null, "attributes", "name"],
       ]
     )(
       {
         ephemeral: {current: {session: "1"}},
-        resources: {
+        res: {
           sessions: {
             1: {
               id: "1",
