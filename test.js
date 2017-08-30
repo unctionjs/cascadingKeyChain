@@ -8,13 +8,13 @@ test(({same, end}) => {
     cascadingKeyChain(
       [
         ["ephemeral", "current", "session"],
-        ["res", "sessions", null, "relationships", "account", "data", "id"],
-        ["res", "accounts", null, "attributes", "name"],
+        ["resources", "sessions", null, "relationships", "account", "data", "id"],
+        ["resources", "accounts", null, "attributes", "name"],
       ]
     )(
       {
         ephemeral: {current: {session: "1"}},
-        res: {
+        resources: {
           sessions: {
             1: {
               id: "1",
