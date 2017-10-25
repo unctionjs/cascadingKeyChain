@@ -1,6 +1,6 @@
 {
   "name": "@unction/cascadingkeychain",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "description": "Cascades through multiple keychains in order to arrive at a value",
   "keywords": [
     "unction",
