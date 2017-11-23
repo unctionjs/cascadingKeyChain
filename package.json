@@ -51,9 +51,9 @@
   },
   "dependencies": {
     "@unction/isnil": "2.15.0",
-    "@unction/keychain": "2.42.0",
+    "@unction/keychain": "2.43.0",
     "@unction/reducevalues": "2.43.0",
-    "@unction/replacewhen": "2.44.0"
+    "@unction/replacewhen": "2.45.0"
   },
   "nyc": {
     "require": [
