@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "@unction/isnil": "2.15.0",
-    "@unction/keychain": "2.43.0",
+    "@unction/keychain": "2.44.0",
     "@unction/reducevalues": "2.44.0",
     "@unction/replacewhen": "2.48.0"
   },
