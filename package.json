@@ -52,10 +52,10 @@
     "tap": "11.0.0"
   },
   "dependencies": {
-    "@unction/isnil": "2.15.0",
-    "@unction/keychain": "2.45.0",
-    "@unction/reducevalues": "2.44.0",
-    "@unction/replacewhen": "2.52.0"
+    "@unction/isnil": "3.0.0",
+    "@unction/keychain": "3.0.0",
+    "@unction/reducevalues": "3.0.0",
+    "@unction/replacewhen": "3.0.0"
   },
   "nyc": {
     "require": [
