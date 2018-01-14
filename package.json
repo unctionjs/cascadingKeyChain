@@ -55,7 +55,7 @@
     "@unction/isnil": "5.0.0",
     "@unction/keychain": "7.0.0",
     "@unction/reducevalues": "6.0.0",
-    "@unction/replacewhen": "7.0.0"
+    "@unction/replacewhen": "8.0.0"
   },
   "nyc": {
     "require": [
