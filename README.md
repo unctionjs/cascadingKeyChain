@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> Array<UnfinishedKeyChainType> => FunctorType => ValueType
+> Array<UnfinishedKeyChainType> => KeyedEnumerableType => ValueType
 
 Cascades through multiple keychains in order to arrive at a value. Null keys are replaced with the previous keychain's value.
 

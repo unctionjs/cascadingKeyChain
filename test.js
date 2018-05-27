@@ -1,10 +1,8 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
-import {test} from "tap"
-
 import cascadingKeyChain from "./index"
 
-test(({same, end}) => {
-  same(
+test("cascadingKeyChain", () => {
+  expect(
     cascadingKeyChain(
       [
         ["ephemeral", "current", "session"],
@@ -29,9 +27,8 @@ test(({same, end}) => {
           },
         },
       }
-    ),
+    )
+  ).toEqual(
     "Kurtis Rainbolt-Greene"
   )
-
-  end()
 })
